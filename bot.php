@@ -14,7 +14,7 @@ class Bot {
         
         if (!file_exists(__DIR__ . '/' . $this->dir)) mkdir(__DIR__ . '/' . $this->dir, 0777, true);
 
-        $this->site = 'https://www.avrupakitapdagitim.com/';
+        $this->site = 'https://www.a*****************.com/';
         $this->client = $this->initClient();
         $this->startSession();
         $this->setListingFilterToAll();
