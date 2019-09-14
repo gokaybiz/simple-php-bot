@@ -1,0 +1,15 @@
+{
+    "name": "end/kitapbot",
+    "description": "Kitaplari cekmeye yarayan bot",
+    "type": "project",
+    "require": {
+        "rmccue/requests": "^1.7",
+        "querypath/querypath": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "gokaybiz",
+            "email": "gkymhmt@gmail.com"
+        }
+    ]
+}
