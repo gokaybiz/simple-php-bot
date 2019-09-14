@@ -12,7 +12,7 @@ try {
     $bot = new Bot($config);
     $fetch = $bot->crawl(); //crawl all products
     // $fetch = $bot->crawl([2]); //start from second product
-    // $fetch = $bot->crawl([2, 6]); //between first .. sixth
+    // $fetch = $bot->crawl([3, 6]); //between third .. sixth
     
     $products = $fetch->get(); //list all products
     // print_r($products);
